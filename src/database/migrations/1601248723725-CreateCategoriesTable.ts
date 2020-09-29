@@ -20,10 +20,12 @@ export class CreateCategoriesTable1601248723725 implements MigrationInterface {
           {
             name: 'created_at',
             type: 'timestamp',
+            default: 'now()',
           },
           {
             name: 'updated_at',
             type: 'timestamp',
+            default: 'now()',
           },
         ],
       }),
